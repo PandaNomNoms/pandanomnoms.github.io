@@ -1,12 +1,13 @@
 .nav {
   font-family: 'Helvetica';
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .nav ul {
   margin: 20px;
   float: right;
-  background-color: #efefef;
-  border-bottom: 1px solid #dbdbdb;
+  
 }
 
 .tab-content {
