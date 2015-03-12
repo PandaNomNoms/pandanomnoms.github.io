@@ -8,7 +8,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){ 
-    				$("#myTab a").click(function(e){
+    				$("#tabs a").click(function(e){
     					e.preventDefault();
  					$(this).tab('show');
     				});
@@ -18,7 +18,7 @@
 	</head>
 	<body>
 		<div class = "nav">
-    			<ul class = "nav nav-tabs">
+    			<ul class = "nav nav-tabs" id="tabs">
         			<li class = "active"><a href="#Home">Home</a></li>
 	        		<li><a href = "#About">About</a></li>
     			</ul>
