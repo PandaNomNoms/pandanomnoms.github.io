@@ -11,6 +11,13 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 		<link href="css/main.css" rel = "stylesheet">
+		<script type="text/javascript">
+			$(document).ready(function(){ 
+    				$("#myTab a").click(function(e){
+    					e.preventDefault();
+ 					$(this).tab('show');
+    				});
+			});
 	</head>
 	<body>
 		<div class = "nav">
@@ -19,8 +26,14 @@
 	        		<li><a href = "#About">About</a></li>
     			</ul>
     			<div class = "tab-content">
-    				<div class="tab-pane fade in active" id="Home">Content inside tab A</div>
-        			<div class="tab-pane fade" id="About">Content inside tab B</div>
+    				<div class="tab-pane fade in active" id="Home">
+    					<h3>Home</h3>
+    					<p>My homepage.  Kinda empty right now but I'll fix that."</p>
+    				</div>
+        			<div class="tab-pane fade" id="About">
+        				<h3>About Me</h3>
+        				<p>Kinda empty right now but I'll fix that."</p>
+        			</div>
     			</div>
 		</div>
 	</body>
