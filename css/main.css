@@ -13,7 +13,8 @@
 }
 
 .tab-content {
-  margin: 20px;
+  padding: 20px;
+  padding-top: 30px;
   border:1px solid #ddd;
   border-bottom:0px;
 }
