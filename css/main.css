@@ -4,4 +4,5 @@
 
 .nav ul, .tab-content {
   margin: 20px;
+  float: right;
 }
