@@ -2,11 +2,15 @@
   font-family: 'Helvetica';
 }
 
-.nav ul {
-  margin: 20px;
+.nav.nav-tabs {
   float: right;
   background-color: #efefef;
   border-bottom: 1px solid #dbdbdb;
+}
+
+.nav ul {
+  margin: 20px;
+  
 }
 
 .tab-content {
